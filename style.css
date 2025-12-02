@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.part1 {
+    background-color: #EAF6F6;
+        text-align: center;
+        padding: 10px 0;
+}
+
+.text {
+     
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text h1 {
+     
+    font-size: 50px;
+    color: #66BFBF;
+    font-family: Arial, sans-serif;
+}
+.text p {
+    padding-top: 40px;
+    font-size: 20px;
+    color: #66BFBF;
+    font-family: Arial, sans-serif;
+}
+.topcloud {
+    position: absolute;
+    top:50px;
+    right: 20%;
+}
+.bottomcloub {
+    position: absolute;
+    bottom: 350px;
+    left: 10%;
+}
+
+.mountain {
+    display: block;
+    margin: 80px auto 0 auto;   
+}
+
+.part2
+{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+}
+.about img{
+    width: 200px;
+    height: auto;
+}
+.about h2{
+    color: #66BFBF;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.about p{
+    color: #40514E;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 5%;
+    color: #66BFBF;
+    margin: 20px  auto;
+}
+.style
+{
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.box1
+{
+    padding-top: 50px;
+}
+.box1 h2, .box2 h2,.last h2{
+    color: #66BFBF;
+}
+.box1 h3, .box2 h3,.last h3{
+    color: #66BFBF;
+    padding-top: 50px;
+}
+.box1 img
+{
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+    position: relative;
+    right: 400px;
+}
+.box1 p{
+    color: #40514E;
+    width: 35%;
+    position: relative;
+    left: 450px;
+    bottom: 100px;
+}
+
+.box2 img
+{
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+    position: relative;
+    left: 350px;
+}
+.box2 p{
+    color: #40514E;
+    width: 35%;
+    position: relative;
+    left: 450px;
+    bottom: 100px;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:30px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 29px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.last p{
+    color: #40514E;
+    width: 40%;
+    margin: 20px auto;
+}
+footer {
+    background-color: #EAF6F6;
+    text-align: center;
+    padding: 20px 0;
+}
